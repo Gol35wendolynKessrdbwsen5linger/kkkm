@@ -1,0 +1,1 @@
+<?php\n\nnamespace App\Http;\n\nuse Illuminate\Foundation\Http\Kernel as HttpKernel;\n\nclass Kernel extends HttpKernel\n{\n    protected $middleware = [\n        // \Illuminate\Http\Middleware\TrustProxies::class,\n        // \App\Http\Middleware\TrimStrings::class,\n    ];\n}

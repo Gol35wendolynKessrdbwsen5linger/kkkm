@@ -1,0 +1,1 @@
+<?php\n\nnamespace App\Models;\n\nuse Illuminate\Database\Eloquent\Factories\HasFactory;\nuse Illuminate\Database\Eloquent\Model;\n\nclass Order extends Model\n{\n    use HasFactory;\n\n    protected $fillable = ['user_id', 'total_amount'];\n}
